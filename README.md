@@ -8,6 +8,12 @@ An end-to-end Natural Language Processing project for classifying text into six 
 
 The application is deployed using Render and provides real-time emotion predictions through a FastAPI backend and web frontend.
 
+## Application Preview
+
+![Emotion Classification Application](screenshots/C:\Users\karth\OneDrive\Desktop\DL_NLP_PROJECT\screenshots\Screenshot 2026-09-14 122522.png)
+
+![Emotion Classification Application](screenshots/C:\Users\karth\OneDrive\Desktop\DL_NLP_PROJECT\screenshots\Screenshot 2026-09-14 122541.png)
+
 ## Project Overview
 
 The goal of this project is to build an emotion classification system that takes a text sentence as input and predicts its emotional category.
