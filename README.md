@@ -17,8 +17,6 @@ The project compares a traditional NLP baseline with multiple recurrent neural n
 - Fear
 - Surprise
 
----
-
 ## Project Pipeline
 
 ```text
@@ -88,30 +86,26 @@ Error analysis is also performed to understand cases involving context, negation
 
 ## Tech Stack
 
-## Machine Learning / NLP
+### Machine Learning / NLP
+- Python
+- TensorFlow
+- Keras
+- Scikit-learn
 
-Python
-TensorFlow
-Keras
-Scikit-learn
+### Backend
+- FastAPI
+- Uvicorn
+- Pydantic
 
-## Backend
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
-FastAPI
-Uvicorn
-Pydantic
-
-## Frontend
-
-HTML
-CSS
-JavaScript
-
-## Tools
-
-Jupyter Notebook
-Git
-GitHub
+### Tools
+- Jupyter Notebook
+- Git
+- GitHub
 
 
 ## Project Structure
@@ -146,7 +140,8 @@ API documentation:
 
 http://127.0.0.1:8000/docs
 
-Future Improvements
+### Future Improvements: 
+
 Improve handling of negation and context
 Hyperparameter tuning
 Confidence calibration
