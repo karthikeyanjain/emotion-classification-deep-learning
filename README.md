@@ -18,8 +18,7 @@ The project compares a traditional NLP baseline with multiple recurrent neural n
 - Surprise
 
 ## Project Pipeline
-
-```text
+    text
 Raw Dataset
      ↓
 Exploratory Data Analysis
