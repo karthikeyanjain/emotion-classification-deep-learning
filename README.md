@@ -2,6 +2,12 @@
 
 An end-to-end Natural Language Processing project for classifying text into six emotions using Deep Learning models, with a FastAPI backend and a responsive HTML/CSS/JavaScript frontend.
 
+## Live Demo
+
+🚀 **Live Application:** https://emotion-classification-aejw.onrender.com/
+
+The application is deployed using Render and provides real-time emotion predictions through a FastAPI backend and web frontend.
+
 ## Project Overview
 
 The goal of this project is to build an emotion classification system that takes a text sentence as input and predicts its emotional category.
