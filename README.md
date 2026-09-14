@@ -31,7 +31,7 @@ The project compares a traditional NLP baseline with multiple recurrent neural n
 - Surprise
 
 ## Project Pipeline
-    text
+ 
 Raw Dataset
      ↓
 Exploratory Data Analysis
@@ -119,17 +119,46 @@ Error analysis is also performed to understand cases involving context, negation
 - Git
 - GitHub
 
-
 ## Project Structure
 
+    
 DL_NLP_PROJECT/
 │
 ├── api/
+│   └── main.py
+│
 ├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
 ├── models/
+│   ├── baseline_model/
+│   ├── rnn_model/
+│   ├── lstm_model/
+│   ├── gru_model/
+│   └── bigru_model/
+│       ├── bigru_model.keras
+│       ├── bigru_results.csv
+│       ├── tokenizer.pkl
+│       └── training_history.csv
+│
 ├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Preprocessing.ipynb
+│   ├── 03_Baseline_Model.ipynb
+│   └── 04_RNN_LSTM_GRU_Models.ipynb
+│
 ├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── screenshots/
+│   ├── app-preview-1.png
+│   └── app-preview-2.png
+│
 ├── requirements.txt
+├── .python-version
 ├── .gitignore
 └── README.md
 
@@ -159,3 +188,6 @@ Hyperparameter tuning
 Confidence calibration
 Experiment with transformer-based models
 Improve model performance through further error analysis
+
+## Author
+Karthikeyan Jain
