@@ -31,7 +31,7 @@ The project compares a traditional NLP baseline with multiple recurrent neural n
 - Surprise
 
 ## Project Pipeline
- 
+ ```text
 Raw Dataset
      ↓
 Exploratory Data Analysis
@@ -57,7 +57,7 @@ Error Analysis
 FastAPI Backend
      ↓
 HTML / CSS / JavaScript Frontend 
-
+```
 The final BiGRU model is served through a FastAPI API and accessed through an HTML/CSS/JavaScript frontend.
 
 ## Dataset
@@ -121,7 +121,7 @@ Error analysis is also performed to understand cases involving context, negation
 
 ## Project Structure
 
-    
+```text
 DL_NLP_PROJECT/
 │
 ├── api/
@@ -161,6 +161,7 @@ DL_NLP_PROJECT/
 ├── .python-version
 ├── .gitignore
 └── README.md
+```
 
 
 ## Run Locally
