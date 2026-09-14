@@ -46,18 +46,19 @@ Error Analysis
      ↓
 FastAPI Backend
      ↓
-HTML / CSS / JavaScript Frontend
+HTML / CSS / JavaScript Frontend 
 
 The final BiGRU model is served through a FastAPI API and accessed through an HTML/CSS/JavaScript frontend.
 
-Dataset
+## Dataset
 
 The project uses the dair-ai/emotion dataset.
 
 16,000 training samples
 2,000 test samples
 6 emotion classes
-Deep Learning Model
+
+## Deep Learning Model
 
 The final model uses a Bidirectional GRU architecture:
 
@@ -72,7 +73,8 @@ Bidirectional GRU (64)
 Dropout
     ↓
 Dense (6 classes + Softmax)
-Evaluation
+
+## Evaluation
 
 Models are evaluated using:
 
@@ -84,33 +86,36 @@ Confusion Matrix
 
 Error analysis is also performed to understand cases involving context, negation, and ambiguous expressions.
 
-Tech Stack
+## Tech Stack
 
-Machine Learning / NLP
+## Machine Learning / NLP
 
 Python
 TensorFlow
 Keras
 Scikit-learn
 
-Backend
+## Backend
 
 FastAPI
 Uvicorn
 Pydantic
 
-Frontend
+## Frontend
 
 HTML
 CSS
 JavaScript
 
-Tools
+## Tools
 
 Jupyter Notebook
 Git
 GitHub
-Project Structure
+
+
+## Project Structure
+
 DL_NLP_PROJECT/
 │
 ├── api/
@@ -121,7 +126,9 @@ DL_NLP_PROJECT/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-Run Locally
+
+
+## Run Locally
 
 Install dependencies:
 
