@@ -1,0 +1,54 @@
+
+# Python virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+
+# Python cache / compiled files
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+
+# VS Code
+
+.vscode/
+*.code-workspace
+
+
+# Operating system
+
+.DS_Store
+Thumbs.db
+
+
+# Dataset files
+
+data/raw/*
+data/processed/*
+
+# Keep folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+
+# Logs / temporary files
+
+*.log
+*.tmp
+*.temp
+
+# Environment variables / secrets
+
+.env
+.env.*
+!.env.example
